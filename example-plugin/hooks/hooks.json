@@ -1,0 +1,8 @@
+{
+  "SessionStart": [
+    {
+      "type": "prompt",
+      "prompt": "The example-plugin has been loaded. Print a simple welcome message: '🎉 Example plugin loaded successfully!' to confirm the SessionStart hook is working."
+    }
+  ]
+}

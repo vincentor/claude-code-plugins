@@ -1,0 +1,19 @@
+{
+  "name": "vincent-personal-plugins",
+  "owner": {
+    "name": "Vincent",
+    "email": "example@example.com"
+  },
+  "plugins": [
+    {
+      "name": "example-plugin",
+      "source": "./example-plugin",
+      "description": "A simple example plugin to test plugin marketplace functionality",
+      "version": "0.1.0",
+      "author": {
+        "name": "Vincent"
+      },
+      "keywords": ["example", "demo", "marketplace-test"]
+    }
+  ]
+}

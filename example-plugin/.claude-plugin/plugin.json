@@ -1,0 +1,10 @@
+{
+  "name": "example-plugin",
+  "version": "0.1.0",
+  "description": "A simple example plugin to test plugin marketplace functionality",
+  "author": {
+    "name": "Vincent",
+    "email": "example@example.com"
+  },
+  "keywords": ["example", "demo", "marketplace-test"]
+}
