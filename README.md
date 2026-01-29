@@ -23,29 +23,35 @@ A simple example plugin to test and validate Claude Code plugin marketplace func
 
 ## Installation
 
-### Add Marketplace
+### Step 1: Add Marketplace
 
 Add this marketplace to your Claude Code configuration:
 
 ```bash
-claude marketplace add vincent-personal-plugins /path/to/claude-code-plugins
+claude marketplace add vincent-personal-plugins github:vincentor/claude-code-plugins
 ```
 
-Or if you've pushed to GitHub:
+### Step 2: Install Plugins
+
+Install plugins from the marketplace:
 
 ```bash
-claude marketplace add vincent-personal-plugins github:username/claude-code-plugins
-```
-
-### Install Plugin from Marketplace
-
-```bash
+# Install example plugin
 claude plugin install example-plugin --marketplace vincent-personal-plugins
+
+# Or install directly from GitHub
+claude plugin install github:vincentor/claude-code-plugins/example-plugin
 ```
 
-### Or Install Plugin Directly
+### Alternative: Local Installation
+
+If you've cloned the repository locally:
 
 ```bash
+# Add local marketplace
+claude marketplace add vincent-personal-plugins /path/to/claude-code-plugins
+
+# Install plugin locally
 claude plugin install ./example-plugin
 ```
 
